@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "scheme": "waypoint",
     "splash": {
-      "image": "./assets/images/WayPoint.png",
+      "image": "./assets/images/logos/WayPoint.png",
       "resizeMode": "contain",
       "backgroundColor": "#FAF8F5"
     },
