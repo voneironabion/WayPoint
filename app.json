@@ -5,13 +5,22 @@
     "version": "1.0.0",
     "scheme": "waypoint",
     "splash": {
-      "image": "./assets/images/Waypoint.png",
+      "image": "./assets/images/WayPoint.png",
       "resizeMode": "contain",
       "backgroundColor": "#FAF8F5"
     },
     "plugins": [
       "expo-font",
       "expo-web-browser"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "397201f0-d8b0-48f5-9e4f-2632a0e039a3"
+      }
+    },
+    "owner": "jaerivxe",
+    "android": {
+      "package": "com.jaerivxe.waypoint"
+    }
   }
 }
