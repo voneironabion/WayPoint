@@ -11,6 +11,9 @@
     },
     "plugins": [
       "expo-font",
+      "expo-web-browser",
+      "expo-router",
+      "expo-font",
       "expo-web-browser"
     ],
     "extra": {
