@@ -19,7 +19,7 @@ export default function TabLayout() {
         
       {/* HOME TAB */}
       <Tabs.Screen
-        name="index"
+        name="home"
         options={{
           tabBarIcon: ({ focused }) => (
             <View style={[styles.iconWrapper, focused && styles.activeIconWrapper]}>

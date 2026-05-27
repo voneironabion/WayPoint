@@ -38,7 +38,7 @@ export default function OnboardingScreen() {
         {/* BOTTOM BUTTON */}
         <TouchableOpacity 
           style={styles.button} 
-          onPress={() => router.replace('/(tabs)/index')} 
+          onPress={() => router.replace('/home')} 
           activeOpacity={0.8}
         >
           <Text style={styles.buttonText}>Start Exploring</Text>

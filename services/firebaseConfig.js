@@ -2,14 +2,14 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
-// Safely pulling your keys from the .env file
+// Hardcoded keys for final EAS build
 const firebaseConfig = {
-  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID
+  apiKey: "AIzaSyBpUkx-Vjp9mByOI0wUDsOREkdkGXBRwXE",
+  authDomain: "waypoint-ead81.firebaseapp.com",
+  projectId: "waypoint-ead81",
+  storageBucket: "waypoint-ead81.firebasestorage.app",
+  messagingSenderId: "811512905408",
+  appId: "1:811512905408:web:2ac1c7a989da4211693725"
 };
 
 // Initialize Firebase
